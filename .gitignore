@@ -7,3 +7,8 @@ dist-ssr
 
 # Сырые выгрузки Росстата (скачиваются скриптом npm run data)
 data/raw/
+
+# Временные файлы Word и отчёта
+~$*
+report/preview.pdf
+__pycache__/
