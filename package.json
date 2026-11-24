@@ -1,0 +1,21 @@
+{
+  "name": "monogorod-bi-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "BI-приложение: динамика естественного и миграционного движения населения в моногородах России",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "node scripts/fetch-data.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10"
+  }
+}
